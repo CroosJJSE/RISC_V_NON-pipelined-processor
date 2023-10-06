@@ -105,3 +105,25 @@ this is the schematic after the load instruction
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/2afb7640-4ea1-4754-8016-8cada2cac9f1)
 
 
+
+##  S-Type store value in data memory
+we are moving the data from the regfile to data memory.
+we connect the B reg to data input directly.
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/2e82a9d0-ff05-4455-aaf4-f24040d397bc)
+
+
+## SB type 
+this is conditional branching
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/d1bc68fa-b54f-448c-bc7c-bbfd9fde3154)
+
+the values in rs1 and rs2 will be compared according to fun3 and if the condition is satisfied it will increase pc by immediate
+but here generating immediate is diffent than r type.
+so we increase the imm.gen control signal width.
+
+
+current data path
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/48f3e536-b244-4191-a683-9e2a522c7fea)
+
