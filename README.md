@@ -73,3 +73,5 @@ Certainly, here are the benefits of microprogrammed processors summarized in poi
    - R[t2] + R[t3]
 5. Write result to our destination register
    - R[t0] = R[t2] + R[t3]
+![IMG_8073](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/68bcb02e-8c77-42cd-b38d-fdfb94798d28)
+
