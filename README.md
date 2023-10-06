@@ -61,3 +61,15 @@ Certainly, here are the benefits of microprogrammed processors summarized in poi
 
 ```
 
+# My progress
+## Start from R type
+1. Get the instruction
+   - add t0 t2 t3
+2. Parse instruction fields (rd, rs1, rs2, operation…)
+   - rd = t0 rs1 = t2 rs2 = t3
+3. Read data based on parsed operands
+   - R[t2] R[t3]
+4. Perform operation
+   - R[t2] + R[t3]
+5. Write result to our destination register
+   - R[t0] = R[t2] + R[t3]
