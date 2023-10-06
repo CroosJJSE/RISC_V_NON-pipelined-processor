@@ -39,3 +39,25 @@ This repo is about the single clock microprogrammed Risc_V processor
    - x86 may involve licensing costs and royalties, which can add to the overall cost of products.
 
 ```
+## why microprogammed?
+Certainly, here are the benefits of microprogrammed processors summarized in point form:
+```
+1. Flexibility
+   - Microprogrammed processors offer greater flexibility.
+   - Control logic is stored in microcode, which can be easily modified or updated.
+   - Allows for changes to the processor's behavior without altering hardware.
+
+2. Simpler Hardware Design
+   - Microprogrammed processors often have simpler and more regular hardware designs.
+   - This simplifies development, debugging, and maintenance compared to hardwired processors.
+
+3. Higher Instruction Set Complexity
+   - Microprogramming supports complex and diverse instruction sets.
+   - Easier implementation of a wide range of instructions due to microcode storage.
+
+4. Emulation and Virtualization
+   - Useful for emulating other processor architectures or virtualizing hardware resources.
+   - Microcode can mimic the behavior of different architectures or virtualize hardware components.
+
+```
+
