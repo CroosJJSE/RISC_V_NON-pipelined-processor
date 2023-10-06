@@ -131,4 +131,4 @@ but it is pretty complex, because added another adder seperately to PC to reduce
 
 **updated one**
 
-![IMG_8075](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/122f624d-efd9-4b69-aa34-a2c1b72959da)
+![IMG_8075](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/73e90bd5-45b7-40ee-8527-809028d44c44)
