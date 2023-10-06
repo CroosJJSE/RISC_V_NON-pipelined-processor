@@ -83,14 +83,25 @@ we have to extend the values accordoing to the RISC V
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/fdb50e10-cba8-4417-9bf3-363411760543)
 
+
+
 and we need a mux to connect the imm.gen and Data B(from reg.file) to the ALU. so the updated schematic will be
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/f3254222-c1e3-40a0-b955-60f083846de9)
 
 
 ## Load I type
+
+
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/825cbca8-75f2-498d-b826-e6932ad29d06)
+here we will have base address in rs1 and increment will be in immediate and we have to store the value from memory to rd register.
+here we are implementing another module "data memeory".
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/201d522f-2331-4fd5-b5f5-3190e103b90b)
 
 
+
+this is the schematic after the load instruction
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/2afb7640-4ea1-4754-8016-8cada2cac9f1)
 
 
