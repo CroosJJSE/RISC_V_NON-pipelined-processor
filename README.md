@@ -109,6 +109,7 @@ this is the schematic after the load instruction
 ##  S-Type store value in data memory
 we are moving the data from the regfile to data memory.
 we connect the B reg to data input directly.
+### rs1 rs2 imm => store the value[rs2] in MEM[value[rs1]+ imm ]
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/2e82a9d0-ff05-4455-aaf4-f24040d397bc)
 
