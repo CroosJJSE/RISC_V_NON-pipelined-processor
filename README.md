@@ -112,6 +112,9 @@ we connect the B reg to data input directly.
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/2e82a9d0-ff05-4455-aaf4-f24040d397bc)
 
+Here the immediate generating is different because of the instruction format,
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/8d3964c3-ca70-4b92-847e-bbb3e92ff71f)
+
 
 ## SB type 
 this is conditional branching
