@@ -117,8 +117,21 @@ Here the immediate generating is different because of the instruction format,
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/8d3964c3-ca70-4b92-847e-bbb3e92ff71f)
 
 
+## B-type
+this is conditional branching,
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/8868f3e4-d891-4a88-82ad-36710db2b627)
+
+it will compare the val[rs1],val[rs2]; the condition is encoded in func3 
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/6edbc832-9823-48cf-8612-b0f21331034f)
+
+the immeidate will be the increment of the PC.
+here we are not storing the current programme counter value, so is we have to go back to old counter, we have to add negative increment for the immediate
+
+
+
 ## SB type 
-this is conditional branching
+this is conditional branching, but here we are storing the 
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/d1bc68fa-b54f-448c-bc7c-bbfd9fde3154)
 
