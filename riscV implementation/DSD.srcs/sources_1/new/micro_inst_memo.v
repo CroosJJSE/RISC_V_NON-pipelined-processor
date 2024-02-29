@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module micro_inst_memo (
     input [5:0] addr,
     output reg [15:0] control

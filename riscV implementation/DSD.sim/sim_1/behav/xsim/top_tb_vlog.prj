@@ -5,13 +5,16 @@ verilog xil_defaultlib  \
 "../../../../DSD.srcs/sources_1/new/PC_final.v" \
 "../../../../DSD.srcs/sources_1/new/RegFile.v" \
 "../../../../DSD.srcs/sources_1/new/adder.v" \
-"../../../../DSD.srcs/sources_1/new/controller_mem.v" \
+"../../../../DSD.srcs/sources_1/new/controller.v" \
 "../../../../DSD.srcs/sources_1/new/im_gen.v" \
 "../../../../DSD.srcs/sources_1/new/instructionMemory.v" \
 "../../../../DSD.srcs/sources_1/new/main_ALU.v" \
 "../../../../DSD.srcs/sources_1/new/mux.v" \
 "../../../../DSD.srcs/sources_1/new/mux4_1.v" \
 "../../../../DSD.srcs/sources_1/new/top.v" \
+
+sv xil_defaultlib  \
+"../../../../DSD.srcs/sim_1/new/top_tb.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

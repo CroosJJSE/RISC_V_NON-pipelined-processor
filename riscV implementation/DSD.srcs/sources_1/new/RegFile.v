@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module RegFile (
     input [4:0] read_regA, read_regB, write_reg,
     input write_enable, clk, reset,
@@ -22,16 +23,19 @@ module RegFile (
 
     initial begin
         register_File[0] = 32'h0;
-        register_File[1] = 32'd3;
-        register_File[2] = 32'd2000;
-        register_File[3] = 32'd20000;
-        register_File[4] = 32'd10;
-        register_File[5] = 32'd11;
-        register_File[11] = 32'd109;
-        register_File[15] = 32'd15;
-        register_File[31] = 32'd100;
-        register_File[20] = 32'd10;
-        register_File[21] = 32'd1;
+        register_File[1] = 32'd1;
+        register_File[2] = 32'd2;
+        register_File[3] = 32'd3;
+        register_File[4] = 32'd4;
+        register_File[5] = 32'd5;
+        register_File[6] = 32'd6;
+        register_File[7] = 32'd7;
+        register_File[8] = 32'd8;
+        register_File[9] = 32'd9;
+        register_File[10] = 32'd10;
+        register_File[11] = 32'd11;
+        register_File[12] = 32'd12;
+        register_File[13] = 32'd13;
     end
 
     assign read_dataA = register_File[read_regA];

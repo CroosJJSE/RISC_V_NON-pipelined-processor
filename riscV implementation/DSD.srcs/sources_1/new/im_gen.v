@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module im_gen(
     input wire [31:0] data_in,
     input wire [2:0] imm_sel,

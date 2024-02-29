@@ -28,6 +28,8 @@ module controller (
     output PCSel,
     output [2:0] ImmSel,
     output RegWEn,
+    output RegSel,
+    output ASel,
     output BSel,
     output MemRW,
     output [1:0] WBSel
@@ -35,8 +37,9 @@ module controller (
 
     reg [6:0] ALU_control_temp;
     wire [10:0] control_signal;
-    reg PC_temp;
+    reg PC_temp = 1'b0 ;
     reg [1:0] WBSel_reg;
+    reg ASel_reg;
     reg BSel_reg;
     reg [2:0] ImmSel_reg;
     reg RegWEn_reg;
@@ -46,10 +49,12 @@ module controller (
 
     always @* begin
         case (control_signal[6:0])
-            7'b0110011: begin   
+            7'b0110011: begin 
+                ASel_reg = 1'b0;
                 BSel_reg = 1'b0; // alu r-type
                 ImmSel_reg = 3'b000;
                 PC_temp = 1'b0;
+                RegWEn_reg = 1'b1;
                 
                 case (control_signal[10:7])
                     17'b0_000: ALU_control_temp = 7'b0011100; // add
@@ -68,9 +73,10 @@ module controller (
 
             7'b0010011: begin // immediate
                 ImmSel_reg = 3'b001;
+                ASel_reg = 1'b0;
                 BSel_reg = 1'b1;
                 PC_temp = 1'b0;
-
+                RegWEn_reg = 1'b1;
                 case (control_signal[9:7])
                     3'b000: ALU_control_temp = 7'b0011100; // ADDI
                     3'b010: ALU_control_temp = 7'b1111111; // SLTI  // ALU out is zero but negative flag will be 1.
@@ -89,6 +95,7 @@ module controller (
 
             7'b0000011: begin // load
                 ImmSel_reg = 3'b001;
+                ASel_reg = 1'b0;
                 BSel_reg = 1'b1;
                 ALU_control_temp = 7'b0011100;
                 WBSel_reg = 2'b00;
@@ -98,6 +105,7 @@ module controller (
 
             7'b0100011: begin // store
                 ImmSel_reg = 3'b010;
+                ASel_reg = 1'b0;
                 BSel_reg = 1'b1;
                 ALU_control_temp = 7'b0011100;
                 MemRW_reg = 1'b1;
@@ -108,6 +116,7 @@ module controller (
   
             7'b1100011: begin // branch
                 ImmSel_reg = 3'b100;
+                ASel_reg = 1'b1;
                 BSel_reg = 1'b1;
                 ALU_control_temp = 7'b1111111;
 
@@ -144,5 +153,8 @@ module controller (
     assign ALU_control = ALU_control_temp;
     assign WBSel = WBSel_reg;
     assign BSel = BSel_reg;
+    assign ASel = ASel_reg;
     assign ImmSel = ImmSel_reg;
+    assign RegWEn = RegWEn_reg;
+    assign MemRW = MemRW_reg;
 endmodule

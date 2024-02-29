@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module PC_final (
     input clk,
     input reset,

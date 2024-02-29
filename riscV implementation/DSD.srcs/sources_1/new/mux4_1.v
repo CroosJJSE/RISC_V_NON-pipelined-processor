@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module mux4_1 (
     input [1:0] sel,
     input [31:0] in0,

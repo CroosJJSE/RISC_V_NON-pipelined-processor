@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module InstructionMemory (
     input [31:0] pc_in,               // Program counter (input)
     output reg [31:0] instruction     // Output instruction

@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module main_ALU (
     input [31:0] A, B,            // Inputs A and B
     input [6:0] ALU_control,      // ALU control signals

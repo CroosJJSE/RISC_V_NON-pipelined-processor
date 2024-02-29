@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module top (
     input clk, reset
 );
@@ -19,7 +20,7 @@ wire [31:0] wire_Data_DMEM;
 wire [31:0] wire_pc4;
 wire [31:0] wire_pc_incremented;
 wire [31:0] wire_pc_mux_out;
-wire [31:0] wire_DMEM_out;
+
 wire zero;
 wire overflow;
 wire negative;
@@ -42,12 +43,13 @@ InstructionMemory instruction_memory (
 );
 
 // Instantiate controller
-Controller_mem controller (
+controller controller (
     .inst(wire_instruction),
     .ALU_control(wire_ALU_control),
     .PCSel(wire_PCSel),
     .ImmSel(wire_ImmSel),
     .BSel(wire_BSel),
+    .ASel(wire_ASel),
     .MemRW(wire_MemRW),
     .WBSel(wire_WBsel),
     .BrEq(wire_BrEq),
