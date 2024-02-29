@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/Branch_comp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_comp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/PC_final.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_final
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/controller_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/im_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module im_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/main_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/mux4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

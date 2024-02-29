@@ -1,0 +1,32 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/RegFile.v" Line 1. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/DMEM.v" Line 1. Module DMEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/Branch_comp.v" Line 1. Module Branch_comp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/PC_final.v" Line 1. Module PC_final doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/RegFile.v" Line 1. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/DMEM.v" Line 1. Module DMEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/Branch_comp.v" Line 1. Module Branch_comp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.srcs/sources_1/new/PC_final.v" Line 1. Module PC_final doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.Controller_mem
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.main_ALU
+Compiling module xil_defaultlib.im_gen
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.mux4_1
+Compiling module xil_defaultlib.Branch_comp
+Compiling module xil_defaultlib.PC_final
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav
