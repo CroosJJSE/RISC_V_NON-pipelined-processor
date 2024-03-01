@@ -76,23 +76,41 @@ Certainly, here are the benefits of microprogrammed processors summarized in poi
 
 ![IMG_8073](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/68bcb02e-8c77-42cd-b38d-fdfb94798d28)
 
+# RISC-V Instruction Types
+
+This repository provides explanations and examples of different instruction types in the RISC-V assembly language.
+
+## R-Type Instructions
+
+R-Type instructions operate on two source registers and store the result in a destination register.
+
+Example:
+```assembly
+ADD x3, x1, x2   // Add the contents of registers x1 and x2 and store the result in register x3
+```
+
  ## Arithmetic I-Type
 We need an additional module (imm.gen) to extract the immediate value from the instruction,
 we have to extend the values accordoing to the RISC V 
+I-Type instructions operate on one register and an immediate value, storing the result in a destination register.
 
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/fdb50e10-cba8-4417-9bf3-363411760543)
-
+```
+ADDI x3, x1, 10   // Add the immediate value 10 to the contents of register x1 and store the result in register x3
+```
 
 
 and we need a mux to connect the imm.gen and Data B(from reg.file) to the ALU. so the updated schematic will be
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/f3254222-c1e3-40a0-b955-60f083846de9)
 
+# RISC-V Memory access instructions
+## Load type
 
-## Load I type
-
-
+```
+LW x3, 100(x1)   // Load a word from memory at address (100 + contents of register x1) and store it in register x3
+```
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/825cbca8-75f2-498d-b826-e6932ad29d06)
 here we will have base address in rs1 and increment will be in immediate and we have to store the value from memory to rd register.
 here we are implementing another module "data memeory".
@@ -107,6 +125,9 @@ this is the schematic after the load instruction
 
 
 ##  S-Type store value in data memory
+```
+SW x3, 100(x1)   // Store the contents of register x3 into memory at address (100 + contents of register x1)
+```
 we are moving the data from the regfile to data memory.
 we connect the B reg to data input directly.
 ### rs1 rs2 imm => store the value[rs2] in MEM[value[rs1]+ imm ]
@@ -116,8 +137,12 @@ we connect the B reg to data input directly.
 Here the immediate generating is different because of the instruction format,
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/8d3964c3-ca70-4b92-847e-bbb3e92ff71f)
 
+# RISC-V Control Flow Instructions
 
 ## B-type
+```
+BEQ x1, x2, 100   // Branch to address 100 if the contents of registers x1 and x2 are equal
+```
 this is conditional branching,
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/8868f3e4-d891-4a88-82ad-36710db2b627)
 
@@ -130,14 +155,26 @@ here we are not storing the current programme counter value, so is we have to go
 
 
 
-## SB type 
-this is conditional branching, but here we are storing the 
 
-![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/d1bc68fa-b54f-448c-bc7c-bbfd9fde3154)
 
-the values in rs1 and rs2 will be compared according to fun3 and if the condition is satisfied it will increase pc by immediate
-but here generating immediate is diffent than r type.
-so we increase the imm.gen control signal width.
+This repository contains examples and explanations of control flow instructions in the RISC-V assembly language.
+
+## JAL (Jump and Link)
+
+The `JAL` instruction is used for unconditional jumps to a target address while simultaneously storing the address of the next instruction (the return address) into a specified register.
+
+```assembly
+JAL rd, offset
+JAL x1, 100   // Jump to address 100 and store the return address in register x1
+```
+## JALR (Jump and Link Register)
+The `JALR` instruction is used for jumps to a target address specified by a register plus an immediate offset, while simultaneously storing the address of the next instruction (the return address) into a specified register.
+
+```assembly
+JALR rd, rs1, offset
+JALR x1, x2, 0   // Jump to the address stored in register x2 and store the return address in register x1
+```
+
 
 
 current data path
