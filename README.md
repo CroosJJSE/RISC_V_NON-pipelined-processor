@@ -161,14 +161,14 @@ This repository contains examples and explanations of control flow instructions 
 
 ## JAL (Jump and Link)
 
-The `JAL` instruction is used for unconditional jumps to a target address while simultaneously storing the address of the next instruction (the return address) into a specified register.
+The `JAL` instruction is used for unconditional jumps to a target address by adding offset to current PC while simultaneously storing the address of the next instruction (the return address) into a specified register.
 
 ```assembly
 JAL rd, offset
 JAL x1, 100   // Jump to address 100 and store the return address in register x1
 ```
 ## JALR (Jump and Link Register)
-The `JALR` instruction is used for jumps to a target address specified by a register plus an immediate offset, while simultaneously storing the address of the next instruction (the return address) into a specified register.
+The `JALR` instruction is used for jumps to a target address by adding offset to current PC specified by a register plus an immediate offset, while simultaneously storing the address of the next instruction (the return address) into a specified register.
 
 ```assembly
 JALR rd, rs1, offset
