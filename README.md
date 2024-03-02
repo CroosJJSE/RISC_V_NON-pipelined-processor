@@ -200,11 +200,4 @@ JALR x1, x2, 0   // Jump to the address stored in register x2 and store the retu
 
 
 current data path
-![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/ac0284db-6dc5-4e59-ac87-aa98f9f62fa7)
-
-Next clock will be increased using **PCSel** and **ASel**
-but it is pretty complex, because added another adder seperately to PC to reduce hardware complex, make faster (reducing combinational delay)
-
-**updated one**
-
-![IMG_8075](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/73e90bd5-45b7-40ee-8527-809028d44c44)
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/a14826e3-812f-464f-b0e4-02c24ddaffac)
