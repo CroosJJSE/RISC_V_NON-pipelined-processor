@@ -167,6 +167,28 @@ The `JAL` instruction is used for unconditional jumps to a target address by add
 JAL rd, offset
 JAL x1, 100   // Jump to address 100 and store the return address in register x1
 ```
+
+lets execute 
+```
+ JAL X3, -2 
+```
+imm: 11111111111111111110
+rd:  00011
+opcode: JAL opcode 1101111
+```
+imm[20] | imm[10:1] | imm[11] | imm[19:12] | rd | opcode
+```
+imm[1] = 0 
+so instruction will be 
+```
+1_1111111110_1_11111111_00011_1101111
+```
+pc 7 to 9 is because of BEQ
+9 to 7 because of JAL
+7 will be stored in x3
+
+![Screenshot from 2024-03-02 09-37-03](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/810d00ef-4f3b-49db-a510-a007851ed51e)
+
 ## JALR (Jump and Link Register)
 The `JALR` instruction is used for jumps to a target address by adding offset to current PC specified by a register plus an immediate offset, while simultaneously storing the address of the next instruction (the return address) into a specified register.
 
