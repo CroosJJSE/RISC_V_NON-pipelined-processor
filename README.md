@@ -76,23 +76,41 @@ Certainly, here are the benefits of microprogrammed processors summarized in poi
 
 ![IMG_8073](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/68bcb02e-8c77-42cd-b38d-fdfb94798d28)
 
+# RISC-V Instruction Types
+
+This repository provides explanations and examples of different instruction types in the RISC-V assembly language.
+
+## R-Type Instructions
+
+R-Type instructions operate on two source registers and store the result in a destination register.
+
+Example:
+```assembly
+ADD x3, x1, x2   // Add the contents of registers x1 and x2 and store the result in register x3
+```
+
  ## Arithmetic I-Type
 We need an additional module (imm.gen) to extract the immediate value from the instruction,
 we have to extend the values accordoing to the RISC V 
+I-Type instructions operate on one register and an immediate value, storing the result in a destination register.
 
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/fdb50e10-cba8-4417-9bf3-363411760543)
-
+```
+ADDI x3, x1, 10   // Add the immediate value 10 to the contents of register x1 and store the result in register x3
+```
 
 
 and we need a mux to connect the imm.gen and Data B(from reg.file) to the ALU. so the updated schematic will be
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/f3254222-c1e3-40a0-b955-60f083846de9)
 
+# RISC-V Memory access instructions
+## Load type
 
-## Load I type
-
-
+```
+LW x3, 100(x1)   // Load a word from memory at address (100 + contents of register x1) and store it in register x3
+```
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/825cbca8-75f2-498d-b826-e6932ad29d06)
 here we will have base address in rs1 and increment will be in immediate and we have to store the value from memory to rd register.
 here we are implementing another module "data memeory".
@@ -107,6 +125,9 @@ this is the schematic after the load instruction
 
 
 ##  S-Type store value in data memory
+```
+SW x3, 100(x1)   // Store the contents of register x3 into memory at address (100 + contents of register x1)
+```
 we are moving the data from the regfile to data memory.
 we connect the B reg to data input directly.
 ### rs1 rs2 imm => store the value[rs2] in MEM[value[rs1]+ imm ]
@@ -116,8 +137,12 @@ we connect the B reg to data input directly.
 Here the immediate generating is different because of the instruction format,
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/8d3964c3-ca70-4b92-847e-bbb3e92ff71f)
 
+# RISC-V Control Flow Instructions
 
 ## B-type
+```
+BEQ x1, x2, 100   // Branch to address 100 if the contents of registers x1 and x2 are equal
+```
 this is conditional branching,
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/8868f3e4-d891-4a88-82ad-36710db2b627)
 
@@ -130,22 +155,125 @@ here we are not storing the current programme counter value, so is we have to go
 
 
 
-## SB type 
-this is conditional branching, but here we are storing the 
 
-![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/d1bc68fa-b54f-448c-bc7c-bbfd9fde3154)
 
-the values in rs1 and rs2 will be compared according to fun3 and if the condition is satisfied it will increase pc by immediate
-but here generating immediate is diffent than r type.
-so we increase the imm.gen control signal width.
+This repository contains examples and explanations of control flow instructions in the RISC-V assembly language.
+
+## JAL (Jump and Link)
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/f7484341-6a57-430b-90f0-85da892163f9)
+
+The `JAL` instruction is used for unconditional jumps to a target address by adding offset to current PC while simultaneously storing the address of the next instruction (the return address) into a specified register.
+
+```assembly
+JAL rd, offset
+JAL x1, 100   // Jump to address 100 and store the return address in register x1
+```
+
+lets execute 
+```
+ JAL X3, -2 
+```
+imm: 11111111111111111110
+rd:  00011
+opcode: JAL opcode 1101111
+```
+imm[20] | imm[10:1] | imm[11] | imm[19:12] | rd | opcode
+```
+imm[1] = 0 
+so instruction will be 
+```
+1_1111111110_1_11111111_00011_1101111
+```
+pc 7 to 9 is because of BEQ
+9 to 7 because of JAL
+7 will be stored in x3
+
+![Screenshot from 2024-03-02 09-37-03](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/810d00ef-4f3b-49db-a510-a007851ed51e)
+
+## JALR (Jump and Link Register)
+The `JALR` instruction is used for jumps to a target address by adding offset to current PC specified by a register plus an immediate offset, while simultaneously storing the address of the next instruction (the return address) into a specified register.
+
+```assembly
+JALR rd, rs1, offset
+JALR x31, x5, 2   // Jump to the address stored in register x5 + 2 and store the return address in register x31
+imm[11:0] | rs1 | funct3 | rd | opcode
+0000_0000_0010_00101_000_11111_1100111
+
+```
+pc 9 to 3
+10 is stored in x31
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/927a5979-a7c5-4a7a-8c78-8c369b7496b0)
+
 
 
 current data path
-![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/ac0284db-6dc5-4e59-ac87-aa98f9f62fa7)
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/a14826e3-812f-464f-b0e4-02c24ddaffac)
 
-Next clock will be increased using **PCSel** and **ASel**
-but it is pretty complex, because added another adder seperately to PC to reduce hardware complex, make faster (reducing combinational delay)
 
-**updated one**
 
-![IMG_8075](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/73e90bd5-45b7-40ee-8527-809028d44c44)
+## AUIPC (Add Upper Immediate to PC)
+
+AUIPC is an instruction in the RISC-V instruction set architecture. It is used to add a 20-bit immediate value to the current Program Counter (PC) and store the result in a register.
+
+### Purpose
+AUIPC allows you to calculate a 32-bit absolute address by adding a signed immediate value to the PC. This is particularly useful for computing addresses relative to the current instruction.
+but **it wont branch**, 
+
+### Instruction Format
+The format of the AUIPC instruction is as follows:
+
+Where:
+- `rd` is the destination register.
+- `imm` is the 20-bit immediate value.
+
+### Example
+```assembly
+AUIPC x2, 0x1000   // Add 0x1000 to the current PC and store the result in register x2
+000000000101_00010_010111
+```
+JALR will use this to change the pc to ba;lue in register
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/dfc3135f-48e8-4337-9dd2-010f4f264d8f)
+```
+            memory[10] = 32'b0000000_00011_00001_000_00100_0010011; // ADDI
+            memory[11] = 32'b0000000_00000_00001_010_00101_0010111; // AUIPC
+                    //00000000000000001010_00101_0010111
+            memory[12] =  32'b00000000_0010_00101_000_11111_1100111; // JALR              
+            memory[23] = 32'b0000000_00011_00001_000_00100_0010011; // ADDI
+```
+### following instruction are done in simulation
+- AUIPC: Add Upper Immediate to PC (e.g., `AUIPC x1, 0x1000`)
+- JAL: Jump and Link (e.g., `JAL x2, 0x2000`)
+- JALR: Jump and Link Register (e.g., `JALR x3, x4, 0`)
+- BEQ: Branch if Equal (e.g., `BEQ x5, x6, 0x30`)
+- BNE: Branch if Not Equal (e.g., `BNE x7, x8, 0x40`)
+- BLT: Branch if Less Than (e.g., `BLT x9, x10, 0x50`)
+- BGE: Branch if Greater Than or Equal (e.g., `BGE x11, x12, 0x60`)
+- BLTU: Branch if Less Than (Unsigned) (e.g., `BLTU x13, x14, 0x70`)
+- BGEU: Branch if Greater Than or Equal (Unsigned) (e.g., `BGEU x15, x16, 0x80`)
+- LW: Load Word (e.g., `LW x17, 0(x18)`)
+- SW: Store Word (e.g., `SW x19, 0(x20)`)
+- ADDI: Add Immediate (e.g., `ADDI x21, x22, 10`)
+- SLTI: Set Less Than Immediate (e.g., `SLTI x23, x24, 5`)
+- SLTIU: Set Less Than Immediate (Unsigned) (e.g., `SLTIU x25, x26, 2`)
+- XORI: XOR Immediate (e.g., `XORI x27, x28, 0xFF`)
+- ORI: OR Immediate (e.g., `ORI x29, x30, 0xF0F0`)
+- ANDI: AND Immediate (e.g., `ANDI x31, x1, 0x0F0F`)
+- SLLI: Shift Left Logical Immediate (e.g., `SLLI x2, x3, 4`)
+- SRLI: Shift Right Logical Immediate (e.g., `SRLI x4, x5, 3`)
+- SRAI: Shift Right Arithmetic Immediate (e.g., `SRAI x6, x7, 2`)
+- ADD: Add (e.g., `ADD x8, x9, x10`)
+- SUB: Subtract (e.g., `SUB x11, x12, x13`)
+- SLL: Shift Left Logical (e.g., `SLL x14, x15, x16`)
+- SLT: Set Less Than (e.g., `SLT x17, x18, x19`)
+- SLTU: Set Less Than (Unsigned) (e.g., `SLTU x20, x21, x22`)
+- XOR: XOR (e.g., `XOR x23, x24, x25`)
+- SRL: Shift Right Logical (e.g., `SRL x26, x27, x28`)
+- SRA: Shift Right Arithmetic (e.g., `SRA x29, x30, x31`)
+- OR: OR (e.g., `OR x1, x2, x3`)
+- AND: AND (e.g., `AND x4, x5, x6`)
+
+## Let's Implement in board
+### PLAN
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/1eee798f-d56f-4637-86e6-9294e5fd4491)
