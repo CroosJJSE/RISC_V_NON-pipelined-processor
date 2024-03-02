@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/DSD/DSD.runs/synth_1'
+HD_PWD='/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+EAStep vivado -log risc.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source risc.tcl

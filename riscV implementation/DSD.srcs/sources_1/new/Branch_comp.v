@@ -8,8 +8,15 @@ module Branch_comp (
 );
 
     always @* begin : Bran_comp
+        // Unsigned comparison
         BrEq = (A == B);
-        BrLT = (BrUn) ? (A < B) : (A[31] < B[31]);
+        
+        // Signed comparison
+        if (BrUn) begin
+            BrLT = (A < B);
+        end else begin
+            BrLT = (A[31] < B[31]) ? 1'b1 : (A[31] == B[31]) ? (A < B) : 1'b0;
+        end
     end
 
 endmodule

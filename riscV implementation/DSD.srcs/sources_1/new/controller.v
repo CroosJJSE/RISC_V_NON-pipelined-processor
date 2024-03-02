@@ -28,10 +28,10 @@ module controller (
     output PCSel,
     output [2:0] ImmSel,
     output RegWEn,
-    output RegSel,
     output ASel,
     output BSel,
     output MemRW,
+    output BrUn,
     output [1:0] WBSel
 );
 
@@ -44,6 +44,7 @@ module controller (
     reg [2:0] ImmSel_reg;
     reg RegWEn_reg;
     reg MemRW_reg;
+    reg BrUn_reg;
 
     assign control_signal = {inst[30], inst[14:12], inst[6:0]};
 
@@ -55,7 +56,7 @@ module controller (
                 ImmSel_reg = 3'b000;
                 PC_temp = 1'b0;
                 RegWEn_reg = 1'b1;
-                
+                WBSel_reg = 1'b1;
                 case (control_signal[10:7])
                     17'b0_000: ALU_control_temp = 7'b0011100; // add
                     17'b1_000: ALU_control_temp = 7'b0011101; // sub
@@ -77,6 +78,7 @@ module controller (
                 BSel_reg = 1'b1;
                 PC_temp = 1'b0;
                 RegWEn_reg = 1'b1;
+                WBSel_reg = 1'b1;
                 case (control_signal[9:7])
                     3'b000: ALU_control_temp = 7'b0011100; // ADDI
                     3'b010: ALU_control_temp = 7'b1111111; // SLTI  // ALU out is zero but negative flag will be 1.
@@ -118,6 +120,9 @@ module controller (
                 ImmSel_reg = 3'b100;
                 ASel_reg = 1'b1;
                 BSel_reg = 1'b1;
+                RegWEn_reg = 1'b0;
+                WBSel_reg = 2'b00;
+                MemRW_reg = 1'b0;
                 ALU_control_temp = 7'b0011100;
 
                 case (control_signal[9:7])
@@ -137,15 +142,20 @@ module controller (
                         if (!BrLT) PC_temp = 1'b1;
                         else PC_temp = 1'b0;
                     end
+                    3'b110: begin // BLTU
+                        BrUn_reg = 1'b1;
+                        if (BrLT) PC_temp = 1'b1;
+                        else PC_temp = 1'b0;
+                    end
+                    3'b111: begin // BGEU
+                        BrUn_reg = 1'b1;
+                        if (!BrLT) PC_temp = 1'b1;
+                        else PC_temp = 1'b0;
+                    end
+                    
                 endcase
             end
 
-            7'b1100111: begin // JALR
-                ImmSel_reg = 3'b001;
-                PC_temp = 1'b1;
-                RegWEn_reg = 1'b1;
-                WBSel_reg = 2'b01;
-            end
 
             7'b1101111: begin // JAL
                 ASel_reg = 1'b1;  
@@ -154,7 +164,27 @@ module controller (
                 ImmSel_reg = 3'b101;
                 PC_temp = 1'b1;
                 ALU_control_temp = 7'b0011100;
+                WBSel_reg = 2'b10;
 
+            end
+            7'b1100111: begin // JALR
+                ImmSel_reg = 3'b001;
+                PC_temp = 1'b1;
+                RegWEn_reg = 1'b1;
+                WBSel_reg = 2'b10;
+                ASel_reg = 1'b0;  
+                BSel_reg = 1'b1;
+                ALU_control_temp = 7'b0011100;
+            end
+
+            7'b0010111: begin // AUIPC
+                ImmSel_reg = 3'b011;
+                ASel_reg = 1'b1;
+                BSel_reg = 1'b1;
+                RegWEn_reg = 1'b1;
+                ALU_control_temp = 7'b0011100;
+                PC_temp = 1'b0;
+                WBSel_reg = 2'b01;
             end
 
 
@@ -170,4 +200,5 @@ module controller (
     assign ImmSel = ImmSel_reg;
     assign RegWEn = RegWEn_reg;
     assign MemRW = MemRW_reg;
+    assign BrUn = BrUn_reg;
 endmodule

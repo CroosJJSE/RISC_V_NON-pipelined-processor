@@ -1,6 +1,7 @@
 `timescale 1ns / 1ps
 module top (
-    input clk, reset
+    input clk, reset,
+    output [31:0] instruction,aluOut,PC
 );
 
 // Wires
@@ -53,6 +54,7 @@ controller controller (
     .MemRW(wire_MemRW),
     .WBSel(wire_WBsel),
     .BrEq(wire_BrEq),
+    .BrUn(wire_BrUn),
     .BrLT(wire_BrLT),
     .RegWEn(wire_RegWEn)
 );
@@ -154,5 +156,9 @@ mux pcBrancingMux (
     .in1(wire_pc),
     .out(wire_A_mux_out_A)
 );
+
+assign instruction = wire_instruction;
+assign aluOut = wire_ALU_result;
+assign PC = wire_pc;
 
 endmodule

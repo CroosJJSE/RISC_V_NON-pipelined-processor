@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Mar  2 22:52:22 2024
+# Process ID: 57606
+# Current directory: /home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.runs/impl_1
+# Command line: vivado -log risc.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source risc.tcl -notrace
+# Log file: /home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.runs/impl_1/risc.vdi
+# Journal file: /home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.runs/impl_1/vivado.jou
+# Running On: kobal, OS: Linux, CPU Frequency: 1838.110 MHz, CPU Physical cores: 8, Host memory: 16108 MB
+#-----------------------------------------------------------
+source risc.tcl -notrace

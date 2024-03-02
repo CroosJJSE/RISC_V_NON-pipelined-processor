@@ -1,7 +1,11 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/Branch_comp.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Branch_comp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/ClockDivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClockDivider
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/LEDController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEDController
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/PC_final.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module PC_final
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
@@ -20,5 +24,7 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/risc
 INFO: [VRFC 10-311] analyzing module mux
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/mux4_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mux4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/risc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module risc
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/subi/codes/vscode/vivado/riscV/RISC_V_single_clock_Micro_programmed_processor/riscV implementation/DSD.srcs/sources_1/new/top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module top
