@@ -195,7 +195,10 @@ The `JALR` instruction is used for jumps to a target address by adding offset to
 
 ```assembly
 JALR rd, rs1, offset
-JALR x1, x2, 0   // Jump to the address stored in register x2 and store the return address in register x1
+JALR x31, x5, 2   // Jump to the address stored in register x5 + 2 and store the return address in register x31
+imm[11:0] | rs1 | funct3 | rd | opcode
+0000_0000_0010_00101_000_11111_1100111
+
 ```
 
 
