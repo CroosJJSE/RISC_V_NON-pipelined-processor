@@ -209,3 +209,29 @@ pc 9 to 3
 
 current data path
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/a14826e3-812f-464f-b0e4-02c24ddaffac)
+
+
+
+## AUIPC (Add Upper Immediate to PC)
+
+AUIPC is an instruction in the RISC-V instruction set architecture. It is used to add a 20-bit immediate value to the current Program Counter (PC) and store the result in a register.
+
+### Purpose
+AUIPC allows you to calculate a 32-bit absolute address by adding a signed immediate value to the PC. This is particularly useful for computing addresses relative to the current instruction.
+but **it wont branch**, 
+
+### Instruction Format
+The format of the AUIPC instruction is as follows:
+
+Where:
+- `rd` is the destination register.
+- `imm` is the 20-bit immediate value.
+
+### Example
+```assembly
+AUIPC x2, 0x1000   // Add 0x1000 to the current PC and store the result in register x2
+000000000101_00010_010111
+```
+JALR will use this to change the pc to ba;lue in register
+
+
