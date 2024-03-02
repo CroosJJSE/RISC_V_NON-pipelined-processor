@@ -233,5 +233,11 @@ AUIPC x2, 0x1000   // Add 0x1000 to the current PC and store the result in regis
 000000000101_00010_010111
 ```
 JALR will use this to change the pc to ba;lue in register
-
-
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/dfc3135f-48e8-4337-9dd2-010f4f264d8f)
+```
+            memory[10] = 32'b0000000_00011_00001_000_00100_0010011; // ADDI
+            memory[11] = 32'b0000000_00000_00001_010_00101_0010111; // AUIPC
+                    //00000000000000001010_00101_0010111
+            memory[12] =  32'b00000000_0010_00101_000_11111_1100111; // JALR              
+            memory[23] = 32'b0000000_00011_00001_000_00100_0010011; // ADDI
+```
