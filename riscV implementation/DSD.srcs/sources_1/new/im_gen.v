@@ -11,8 +11,10 @@ always @* begin : IMM_selector
         3'b001: out = { {21{data_in[31]}}, data_in[30:20] }; // I type
         3'b010: out = { {21{data_in[31]}}, data_in[30:25], data_in[11:7] }; // S type
         3'b100: out = { {21{data_in[31]}}, data_in[7], data_in[30:25], data_in[11:8] }; // SB type
+        3'b101: out = { {21{data_in[31]}}, data_in[19:12],data_in[20],data_in[30:21]};// UJ type (JAL)
         default: out = 32'b0; // Default case
     endcase
 end
+
 
 endmodule

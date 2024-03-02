@@ -118,7 +118,7 @@ module controller (
                 ImmSel_reg = 3'b100;
                 ASel_reg = 1'b1;
                 BSel_reg = 1'b1;
-                ALU_control_temp = 7'b1111111;
+                ALU_control_temp = 7'b0011100;
 
                 case (control_signal[9:7])
                     3'b000: begin // BEQ
@@ -146,6 +146,19 @@ module controller (
                 RegWEn_reg = 1'b1;
                 WBSel_reg = 2'b01;
             end
+
+            7'b1101111: begin // JAL
+                ASel_reg = 1'b1;  
+                BSel_reg = 1'b1;
+                RegWEn_reg = 1'b1;
+                ImmSel_reg = 3'b101;
+                PC_temp = 1'b1;
+                ALU_control_temp = 7'b0011100;
+
+            end
+
+
+
         endcase
     end
 
