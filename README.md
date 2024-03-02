@@ -241,3 +241,39 @@ JALR will use this to change the pc to ba;lue in register
             memory[12] =  32'b00000000_0010_00101_000_11111_1100111; // JALR              
             memory[23] = 32'b0000000_00011_00001_000_00100_0010011; // ADDI
 ```
+### following instruction are done in simulation
+- AUIPC: Add Upper Immediate to PC (e.g., `AUIPC x1, 0x1000`)
+- JAL: Jump and Link (e.g., `JAL x2, 0x2000`)
+- JALR: Jump and Link Register (e.g., `JALR x3, x4, 0`)
+- BEQ: Branch if Equal (e.g., `BEQ x5, x6, 0x30`)
+- BNE: Branch if Not Equal (e.g., `BNE x7, x8, 0x40`)
+- BLT: Branch if Less Than (e.g., `BLT x9, x10, 0x50`)
+- BGE: Branch if Greater Than or Equal (e.g., `BGE x11, x12, 0x60`)
+- BLTU: Branch if Less Than (Unsigned) (e.g., `BLTU x13, x14, 0x70`)
+- BGEU: Branch if Greater Than or Equal (Unsigned) (e.g., `BGEU x15, x16, 0x80`)
+- LW: Load Word (e.g., `LW x17, 0(x18)`)
+- SW: Store Word (e.g., `SW x19, 0(x20)`)
+- ADDI: Add Immediate (e.g., `ADDI x21, x22, 10`)
+- SLTI: Set Less Than Immediate (e.g., `SLTI x23, x24, 5`)
+- SLTIU: Set Less Than Immediate (Unsigned) (e.g., `SLTIU x25, x26, 2`)
+- XORI: XOR Immediate (e.g., `XORI x27, x28, 0xFF`)
+- ORI: OR Immediate (e.g., `ORI x29, x30, 0xF0F0`)
+- ANDI: AND Immediate (e.g., `ANDI x31, x1, 0x0F0F`)
+- SLLI: Shift Left Logical Immediate (e.g., `SLLI x2, x3, 4`)
+- SRLI: Shift Right Logical Immediate (e.g., `SRLI x4, x5, 3`)
+- SRAI: Shift Right Arithmetic Immediate (e.g., `SRAI x6, x7, 2`)
+- ADD: Add (e.g., `ADD x8, x9, x10`)
+- SUB: Subtract (e.g., `SUB x11, x12, x13`)
+- SLL: Shift Left Logical (e.g., `SLL x14, x15, x16`)
+- SLT: Set Less Than (e.g., `SLT x17, x18, x19`)
+- SLTU: Set Less Than (Unsigned) (e.g., `SLTU x20, x21, x22`)
+- XOR: XOR (e.g., `XOR x23, x24, x25`)
+- SRL: Shift Right Logical (e.g., `SRL x26, x27, x28`)
+- SRA: Shift Right Arithmetic (e.g., `SRA x29, x30, x31`)
+- OR: OR (e.g., `OR x1, x2, x3`)
+- AND: AND (e.g., `AND x4, x5, x6`)
+
+## Let's Implement in board
+### PLAN
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/1eee798f-d56f-4637-86e6-9294e5fd4491)
