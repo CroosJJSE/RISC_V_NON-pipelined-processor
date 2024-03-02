@@ -160,6 +160,7 @@ here we are not storing the current programme counter value, so is we have to go
 This repository contains examples and explanations of control flow instructions in the RISC-V assembly language.
 
 ## JAL (Jump and Link)
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/f7484341-6a57-430b-90f0-85da892163f9)
 
 The `JAL` instruction is used for unconditional jumps to a target address by adding offset to current PC while simultaneously storing the address of the next instruction (the return address) into a specified register.
 
