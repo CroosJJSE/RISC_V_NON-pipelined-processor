@@ -299,4 +299,15 @@ led blinkes once per second
 PC aluOut Instruction will be caught by PS to be displayed in terminal, ClockDiv to slow the process to see the process.
 4 leds will be used confirm the PC counter value is same as simulation.
 
+final simulation including all instruction,
 
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/15bb7de7-c763-4cb9-ab8d-2d69e6ff1d9d)
+
+
+result
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/723f93b2-6868-4ac6-b4b1-aa2e7ee5232b)
+
+
+# Finished
+processor is working fine
