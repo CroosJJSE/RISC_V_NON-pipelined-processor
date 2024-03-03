@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Mar  3 11:47:43 2024
+# Process ID: 108841
+# Current directory: /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1
+# Command line: vivado -log design_1_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_0.tcl
+# Log file: /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.vds
+# Journal file: /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1/vivado.jou
+# Running On: kobal, OS: Linux, CPU Frequency: 3300.510 MHz, CPU Physical cores: 8, Host memory: 16108 MB
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2032.953 ; gain = 115.992 ; free physical = 7675 ; free virtual = 33947
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry a6b8cebf2bcca45a to dir: /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.cache/ip/2022.2/a/6/a6b8cebf2bcca45a/design_1_axi_gpio_0_1_sim_netlist.vhdl to /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.cache/ip/2022.2/a/6/a6b8cebf2bcca45a/design_1_axi_gpio_0_1_sim_netlist.v to /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.cache/ip/2022.2/a/6/a6b8cebf2bcca45a/design_1_axi_gpio_0_1_stub.vhdl to /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.cache/ip/2022.2/a/6/a6b8cebf2bcca45a/design_1_axi_gpio_0_1_stub.v to /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.cache/ip/2022.2/a/6/a6b8cebf2bcca45a/design_1_axi_gpio_0_1.dcp to /home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.dcp.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_gpio_0_0, cache-ID = a6b8cebf2bcca45a.
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  3 11:47:55 2024...

@@ -1,0 +1,1475 @@
+TRACE::2024-03-03.11:54:57::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:57::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:57::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:57::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:54:57::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:54:57::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-03-03.11:54:59::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-03-03.11:54:59::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"risc",
+	"systems":	[{
+			"systemName":	"risc",
+			"systemDesc":	"risc",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"risc"
+		}]
+}
+TRACE::2024-03-03.11:54:59::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-03-03.11:54:59::SCWDomain::checking for install qemu data   : 
+TRACE::2024-03-03.11:54:59::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-03-03.11:54:59::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:54:59::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2024-03-03.11:54:59::SCWPlatform::Generating the sources  .
+TRACE::2024-03-03.11:54:59::SCWBDomain::Generating boot domain sources.
+TRACE::2024-03-03.11:54:59::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:54:59::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:54:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:54:59::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:54:59::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-03-03.11:54:59::SCWMssOS::No sw design opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:54:59::SCWMssOS::mss does not exists at /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:54:59::SCWMssOS::Creating sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:54:59::SCWMssOS::Adding the swdes entry, created swdb /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:54:59::SCWMssOS::updating the scw layer changes to swdes at   /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:54:59::SCWMssOS::Writing mss at /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:54:59::SCWMssOS::Completed writing the mss file at /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-03-03.11:54:59::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-03-03.11:54:59::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-03-03.11:54:59::SCWBDomain::Completed writing the mss file at /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-03-03.11:55:05::SCWPlatform::Generating sources Done.
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-03-03.11:55:05::SCWMssOS::No sw design opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::mss exists loading the mss file  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Opened the sw design from mss  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Adding the swdes entry /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-03-03.11:55:05::SCWMssOS::updating the scw layer about changes
+TRACE::2024-03-03.11:55:05::SCWMssOS::Opened the sw design.  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:05::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:05::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:05::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:05::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"risc",
+	"systems":	[{
+			"systemName":	"risc",
+			"systemDesc":	"risc",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"risc",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dc0c241c56b5d89087a84773a310408c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWDomain::checking for install qemu data   : 
+TRACE::2024-03-03.11:55:05::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-03-03.11:55:05::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:05::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:05::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:05::SCWMssOS::No sw design opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::mss does not exists at /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Creating sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Adding the swdes entry, created swdb /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::updating the scw layer changes to swdes at   /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Writing mss at /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:05::SCWMssOS::Completed writing the mss file at /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-03-03.11:55:05::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-03-03.11:55:05::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-03-03.11:55:05::SCWMssOS::Completed writing the mss file at /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-03-03.11:55:05::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-03-03.11:55:06::SCWMssOS::Writing the mss file completed /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"risc",
+	"systems":	[{
+			"systemName":	"risc",
+			"systemDesc":	"risc",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"risc",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dc0c241c56b5d89087a84773a310408c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/risc/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/risc/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"62ee4cfab64ab1891708e868a3ffc9fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-03-03.11:55:06::SCWPlatform::Started generating the artifacts platform risc
+TRACE::2024-03-03.11:55:06::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-03-03.11:55:06::SCWPlatform::Started generating the artifacts for system configuration risc
+LOG::2024-03-03.11:55:06::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-03-03.11:55:06::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-03-03.11:55:06::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-03-03.11:55:06::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-03-03.11:55:06::SCWSystem::Checking the domain standalone_domain
+LOG::2024-03-03.11:55:06::SCWSystem::Not a boot domain 
+LOG::2024-03-03.11:55:06::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-03-03.11:55:06::SCWDomain::Generating domain artifcats
+TRACE::2024-03-03.11:55:06::SCWMssOS::Generating standalone artifcats
+TRACE::2024-03-03.11:55:06::SCWMssOS::Copying the qemu file from  /home/subi/codes/vscode/vivado/finalRISCV/risc/resources/risc/standalone_domain/qemu_args.txt To /home/subi/codes/vscode/vivado/finalRISCV/risc/export/risc/sw/risc/qemu/
+TRACE::2024-03-03.11:55:06::SCWMssOS::Copying the qemu file from  /home/subi/codes/vscode/vivado/finalRISCV/risc/resources/risc/standalone_domain/qemu_args.txt To /home/subi/codes/vscode/vivado/finalRISCV/risc/export/risc/sw/risc/standalone_domain/qemu/
+TRACE::2024-03-03.11:55:06::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writing the mss file at /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-03-03.11:55:06::SCWMssOS::Mss edits present, copying mssfile into export location /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-03-03.11:55:06::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-03-03.11:55:06::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-03-03.11:55:06::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-03-03.11:55:06::SCWMssOS::Copying to export directory.
+TRACE::2024-03-03.11:55:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-03-03.11:55:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-03-03.11:55:06::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-03-03.11:55:06::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-03-03.11:55:06::SCWSystem::Completed Processing the sysconfig risc
+LOG::2024-03-03.11:55:06::SCWPlatform::Completed generating the artifacts for system configuration risc
+TRACE::2024-03-03.11:55:06::SCWPlatform::Started preparing the platform 
+TRACE::2024-03-03.11:55:06::SCWSystem::Writing the bif file for system config risc
+TRACE::2024-03-03.11:55:06::SCWSystem::dir created 
+TRACE::2024-03-03.11:55:06::SCWSystem::Writing the bif 
+TRACE::2024-03-03.11:55:06::SCWPlatform::Started writing the spfm file 
+TRACE::2024-03-03.11:55:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-03-03.11:55:06::SCWPlatform::Completed generating the platform
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"risc",
+	"systems":	[{
+			"systemName":	"risc",
+			"systemDesc":	"risc",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"risc",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dc0c241c56b5d89087a84773a310408c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/risc/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/risc/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"62ee4cfab64ab1891708e868a3ffc9fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-03-03.11:55:06::SCWPlatform::updated the xpfm file.
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"risc",
+	"systems":	[{
+			"systemName":	"risc",
+			"systemDesc":	"risc",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"risc",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dc0c241c56b5d89087a84773a310408c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/risc/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/risc/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"62ee4cfab64ab1891708e868a3ffc9fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"risc",
+	"systems":	[{
+			"systemName":	"risc",
+			"systemDesc":	"risc",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"risc",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dc0c241c56b5d89087a84773a310408c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/risc/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/risc/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"62ee4cfab64ab1891708e868a3ffc9fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:06::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:06::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-03-03.11:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:06::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:06::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:06::SCWWriter::formatted JSON is {
+	"platformName":	"risc",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"risc",
+	"platHandOff":	"/home/subi/codes/vscode/vivado/finalRISCV/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"risc",
+	"systems":	[{
+			"systemName":	"risc",
+			"systemDesc":	"risc",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"risc",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"dc0c241c56b5d89087a84773a310408c",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/risc/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/risc/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"62ee4cfab64ab1891708e868a3ffc9fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-03-03.11:55:07::SCWPlatform::Clearing the existing platform
+TRACE::2024-03-03.11:55:07::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-03-03.11:55:07::SCWBDomain::clearing the fsbl build
+TRACE::2024-03-03.11:55:07::SCWMssOS::Removing the swdes entry for  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:07::SCWMssOS::Removing the swdes entry for  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:07::SCWSystem::Clearing the domains completed.
+TRACE::2024-03-03.11:55:07::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-03-03.11:55:07::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform:: Platform location is /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:07::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:07::SCWPlatform::Removing the HwDB with name /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:07::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:07::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:07::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWReader::Active system found as  risc
+TRACE::2024-03-03.11:55:09::SCWReader::Handling sysconfig risc
+TRACE::2024-03-03.11:55:09::SCWDomain::checking for install qemu data   : 
+TRACE::2024-03-03.11:55:09::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-03-03.11:55:09::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-03-03.11:55:09::SCWMssOS::No sw design opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::mss exists loading the mss file  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::Opened the sw design from mss  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::Adding the swdes entry /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-03-03.11:55:09::SCWMssOS::updating the scw layer about changes
+TRACE::2024-03-03.11:55:09::SCWMssOS::Opened the sw design.  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:09::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:09::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2024-03-03.11:55:09::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:09::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:09::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-03-03.11:55:09::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:09::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWReader::No isolation master present  
+TRACE::2024-03-03.11:55:09::SCWDomain::checking for install qemu data   : 
+TRACE::2024-03-03.11:55:09::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-03-03.11:55:09::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:09::SCWMssOS::No sw design opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::mss exists loading the mss file  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::Opened the sw design from mss  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::Adding the swdes entry /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-03-03.11:55:09::SCWMssOS::updating the scw layer about changes
+TRACE::2024-03-03.11:55:09::SCWMssOS::Opened the sw design.  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::Saving the mss changes /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-03-03.11:55:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-03-03.11:55:09::SCWMssOS::Commit changes completed.
+TRACE::2024-03-03.11:55:09::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-03-03.11:55:09::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to open the hw design at /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA given /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA absoulate path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform::DSA directory /home/subi/codes/vscode/vivado/finalRISCV/risc/hw
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Platform Path /home/subi/codes/vscode/vivado/finalRISCV/risc/hw/design_1_wrapper.xsa
+TRACE::2024-03-03.11:55:09::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-03-03.11:55:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2024-03-03.11:55:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-03-03.11:55:09::SCWMssOS::Checking the sw design at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWMssOS::DEBUG:  swdes dump  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/subi/codes/vscode/vivado/finalRISCV/risc/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-03-03.11:55:09::SCWMssOS::Sw design exists and opened at  /home/subi/codes/vscode/vivado/finalRISCV/risc/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-03-03.11:55:09::SCWReader::No isolation master present  

@@ -1,0 +1,489 @@
+
+*** Running vivado
+    with args -log design_1_risc_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_risc_0_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_risc_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2032.695 ; gain = 114.992 ; free physical = 8617 ; free virtual = 35090
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_risc_0_0
+Command: synth_design -top design_1_risc_0_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 109582
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2753.520 ; gain = 378.770 ; free physical = 7781 ; free virtual = 34283
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2210.224; parent = 1995.468; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3768.059; parent = 2756.492; children = 1011.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_risc_0_0' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.gen/sources_1/bd/design_1/ip/design_1_risc_0_0/synth/design_1_risc_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'risc' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/risc.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ClockDivider' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/ClockDivider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ClockDivider' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/ClockDivider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'top' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/InstructionMemory.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/InstructionMemory.v:2]
+INFO: [Synth 8-6157] synthesizing module 'controller' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:128]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegFile' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/RegFile.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'RegFile' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/RegFile.v:2]
+INFO: [Synth 8-6157] synthesizing module 'main_ALU' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/main_ALU.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'main_ALU' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/main_ALU.v:2]
+INFO: [Synth 8-6157] synthesizing module 'im_gen' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/im_gen.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'im_gen' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/im_gen.v:2]
+INFO: [Synth 8-6157] synthesizing module 'mux' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/mux.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/mux.v:2]
+INFO: [Synth 8-6157] synthesizing module 'DMEM' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/DMEM.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'DMEM' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/DMEM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'mux4_1' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/mux4_1.v:2]
+INFO: [Synth 8-226] default block is never used [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/mux4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'mux4_1' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/mux4_1.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Branch_comp' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/Branch_comp.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Branch_comp' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/Branch_comp.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PC_final' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/PC_final.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'PC_final' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/PC_final.v:2]
+INFO: [Synth 8-6157] synthesizing module 'adder' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'LEDController' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/LEDController.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LEDController' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/LEDController.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'risc' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/risc.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_risc_0_0' (0#1) [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.gen/sources_1/bd/design_1/ip/design_1_risc_0_0/synth/design_1_risc_0_0.v:53]
+WARNING: [Synth 8-3848] Net wire_pc_incremented in module/entity top does not have driver. [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/top.v:22]
+WARNING: [Synth 8-7129] Port data[31] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[30] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[29] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[28] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[27] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[26] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[25] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[24] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[23] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[22] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[21] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[20] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[19] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[18] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[17] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[16] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[15] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[14] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[13] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[12] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[11] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[10] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[9] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[8] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[7] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[6] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[5] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data[4] in module LEDController is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[31] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module DMEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[6] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[5] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[4] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[3] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[2] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[1] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[0] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[31] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[29] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[28] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[27] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[26] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[25] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[24] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[23] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[22] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[21] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[20] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module controller is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2828.457 ; gain = 453.707 ; free physical = 7872 ; free virtual = 34374
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2210.224; parent = 1995.468; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3840.027; parent = 2828.461; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2843.301 ; gain = 468.551 ; free physical = 7873 ; free virtual = 34376
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2210.224; parent = 1995.468; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3854.871; parent = 2843.305; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2843.301 ; gain = 468.551 ; free physical = 7874 ; free virtual = 34376
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2210.224; parent = 1995.468; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3854.871; parent = 2843.305; children = 1011.566
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2843.301 ; gain = 0.000 ; free physical = 7872 ; free virtual = 34375
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3005.051 ; gain = 0.000 ; free physical = 7796 ; free virtual = 34299
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3005.051 ; gain = 0.000 ; free physical = 7796 ; free virtual = 34298
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7844 ; free virtual = 34347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2234.454; parent = 2019.754; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7844 ; free virtual = 34346
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2234.454; parent = 2019.754; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7844 ; free virtual = 34347
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2234.454; parent = 2019.754; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'ALU_control_temp_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'PC_temp_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:57]
+WARNING: [Synth 8-327] inferring latch for variable 'ImmSel_reg_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWEn_reg_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:58]
+WARNING: [Synth 8-327] inferring latch for variable 'ASel_reg_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:54]
+WARNING: [Synth 8-327] inferring latch for variable 'BSel_reg_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:55]
+WARNING: [Synth 8-327] inferring latch for variable 'MemRW_reg_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:113]
+WARNING: [Synth 8-327] inferring latch for variable 'BrUn_reg_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:146]
+WARNING: [Synth 8-327] inferring latch for variable 'WBSel_reg_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/controller.v:59]
+WARNING: [Synth 8-327] inferring latch for variable 'ALU_result_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/main_ALU.v:15]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.srcs/sources_1/new/main_ALU.v:16]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7825 ; free virtual = 34328
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2234.454; parent = 2019.754; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 34    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  16 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 1     
+	   8 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 1     
+	   9 Input    2 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 34    
+	  12 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port data_in[6] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[5] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[4] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[3] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[2] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[1] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[0] in module im_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[31] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[29] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[28] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[27] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[26] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[25] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[24] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[23] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[22] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[21] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[20] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module controller is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/controller/BrUn_reg_reg) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/overflow_reg) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[31]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[30]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[29]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[28]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[27]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[26]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[25]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[24]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[23]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[22]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[21]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[20]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[19]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[18]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[17]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[16]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[15]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[14]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[13]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[12]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[11]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[10]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[9]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[8]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[7]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[6]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[5]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[4]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[3]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[2]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[1]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/main_ALU/ALU_result_reg[0]) is unused and will be removed from module design_1_risc_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7802 ; free virtual = 34311
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2234.454; parent = 2019.754; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------+----------------------------+-----------+----------------------+------------------+
+|Module Name       | RTL Object                 | Inference | Size (Depth x Width) | Primitives       | 
++------------------+----------------------------+-----------+----------------------+------------------+
+|design_1_risc_0_0 | inst/top_inst/DMEM/mem_reg | Implied   | 1 K x 32             | RAM256X1S x 128  | 
++------------------+----------------------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7690 ; free virtual = 34199
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2323.647; parent = 2108.979; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7698 ; free virtual = 34207
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2324.093; parent = 2109.424; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------------+----------------------------+-----------+----------------------+------------------+
+|Module Name       | RTL Object                 | Inference | Size (Depth x Width) | Primitives       | 
++------------------+----------------------------+-----------+----------------------+------------------+
+|design_1_risc_0_0 | inst/top_inst/DMEM/mem_reg | Implied   | 1 K x 32             | RAM256X1S x 128  | 
++------------------+----------------------------+-----------+----------------------+------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/controller/ALU_control_temp_reg[4]) is unused and will be removed from module design_1_risc_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/top_inst/controller/ALU_control_temp_reg[0]) is unused and will be removed from module design_1_risc_0_0.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7687 ; free virtual = 34197
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2327.491; parent = 2112.822; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7687 ; free virtual = 34197
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2327.991; parent = 2113.322; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7687 ; free virtual = 34197
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2328.007; parent = 2113.338; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7687 ; free virtual = 34197
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2328.062; parent = 2113.393; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7687 ; free virtual = 34197
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2328.124; parent = 2113.455; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7689 ; free virtual = 34199
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2328.124; parent = 2113.455; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7689 ; free virtual = 34199
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2328.124; parent = 2113.455; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    27|
+|2     |LUT1      |    61|
+|3     |LUT2      |    20|
+|4     |LUT3      |   118|
+|5     |LUT4      |   108|
+|6     |LUT5      |    58|
+|7     |LUT6      |   270|
+|8     |MUXF7     |    63|
+|9     |RAM256X1S |   128|
+|10    |FDCE      |    32|
+|11    |FDRE      |   385|
+|12    |LD        |    10|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7689 ; free virtual = 34199
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2328.140; parent = 2113.471; children = 214.756
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3984.605; parent = 2973.039; children = 1011.566
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 67 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 3005.051 ; gain = 468.551 ; free physical = 7739 ; free virtual = 34249
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 3005.051 ; gain = 630.301 ; free physical = 7739 ; free virtual = 34249
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3005.051 ; gain = 0.000 ; free physical = 7845 ; free virtual = 34354
+INFO: [Netlist 29-17] Analyzing 228 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3005.051 ; gain = 0.000 ; free physical = 7790 ; free virtual = 34300
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 138 instances were transformed.
+  LD => LDCE: 10 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 128 instances
+
+Synth Design complete, checksum: dd1eae0e
+INFO: [Common 17-83] Releasing license: Synthesis
+93 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 3005.051 ; gain = 935.668 ; free physical = 7996 ; free virtual = 34506
+INFO: [Common 17-1381] The checkpoint '/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_risc_0_0_synth_1/design_1_risc_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_risc_0_0, cache-ID = f0e61a2a24458bf1
+INFO: [Coretcl 2-1174] Renamed 10 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/subi/codes/vscode/vivado/finalRISCV/finalRISCV.runs/design_1_risc_0_0_synth_1/design_1_risc_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_risc_0_0_utilization_synth.rpt -pb design_1_risc_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  3 11:50:43 2024...
