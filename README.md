@@ -277,3 +277,37 @@ JALR will use this to change the pc to ba;lue in register
 ### PLAN
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/1eee798f-d56f-4637-86e6-9294e5fd4491)
+
+
+### testing FPGA connectivity and clocking using led blinking module
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/0d78f78e-f0c3-4eea-b4d0-1be21c12bb4c)
+
+import it to vitis,
+connected with FPGA
+led blinkes once per second
+
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/b492001b-1101-4016-81b0-3d191eb2e00b)
+
+
+
+### scemetic of RISC
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/3af9da94-1084-454e-af35-5ee14f3ed3a6)
+
+PC aluOut Instruction will be caught by PS to be displayed in terminal, ClockDiv to slow the process to see the process.
+4 leds will be used confirm the PC counter value is same as simulation.
+
+final simulation including all instruction,
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/15bb7de7-c763-4cb9-ab8d-2d69e6ff1d9d)
+
+
+result
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/723f93b2-6868-4ac6-b4b1-aa2e7ee5232b)
+
+
+# Finished
+processor is working fine
