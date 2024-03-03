@@ -277,3 +277,18 @@ JALR will use this to change the pc to ba;lue in register
 ### PLAN
 
 ![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/1eee798f-d56f-4637-86e6-9294e5fd4491)
+
+
+### testing FPGA connectivity and clocking using led blinking module
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/0d78f78e-f0c3-4eea-b4d0-1be21c12bb4c)
+
+import it to vitis,
+connected with FPGA
+led blinkes once per second
+
+
+![image](https://github.com/CroosJJSE/RISC_V_single_clock_Micro_programmed_processor/assets/141708783/b492001b-1101-4016-81b0-3d191eb2e00b)
+
+
+
